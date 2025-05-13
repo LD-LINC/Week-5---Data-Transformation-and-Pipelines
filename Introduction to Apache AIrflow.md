@@ -286,10 +286,10 @@ Design a DAG that periodically fetches data from an external API, processes it, 
 # Resources
 
 ## Official Documentation
-- Source: Documentation (no date) Apache Airflow. Available at: https://airflow.apache.org/docs/.
+- Documentation (no date) Apache Airflow. Available at: https://airflow.apache.org/docs/.
 
 ## Video Tutorials
-- Source: coder2j (2023) Airflow tutorial for beginners - full course in 2 hours 2022. Youtube. Available at: https://www.youtube.com/watch?v=K9AnJ9_ZAXE.
+- coder2j (2023) Airflow tutorial for beginners - full course in 2 hours 2022. Youtube. Available at: https://www.youtube.com/watch?v=K9AnJ9_ZAXE.
 
 ## Medium Articles
 - Susanto, G.K. (2021) Data pipeline using Apache airflow to import data from public API, jakartasmartcity. Available at: https://medium.com/jakartasmartcity/data-pipeline-using-apache-airflow-to-import-data-from-public-api-7ff719118ac8.
