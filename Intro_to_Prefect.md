@@ -6,11 +6,11 @@ Prefect is a modern workflow orchestration tool that helps users design, schedul
 
 In simpler terms, Prefect allows you to define a series of steps (called tasks) that are run in a specific order (called a flow) to achieve a certain outcome, like fetching data from an API, transforming it, and storing it in a database.
 
-Prefect is designed to make sure your workflows are robust, repeatable, and easy to monitor, even when something goes wrong.
+Prefect ensures your workflows are robust, repeatable, and easy to monitor, even when something goes wrong.
 
 ## Why Do We Need Prefect?
 
-As data-driven applications and services grow in complexity, the need to coordinate and automate various tasks becomes critical. Managing these workflows manually or with simple scripts often leads to problems like:
+As data-driven applications and services become complex, the need to coordinate and automate various tasks becomes critical. Managing these workflows manually or with simple scripts often leads to problems like:
 
 *   Tasks failing silently
 *   Difficulty in retrying failed operations
@@ -18,7 +18,7 @@ As data-driven applications and services grow in complexity, the need to coordin
 *   Difficulty in managing task dependencies
 *   Challenges in scheduling and managing long-running jobs
 
-Prefect provides solutions to all of these challenges and more, helping both small and large teams run reliable and observable workflows.
+Prefect provides solutions to these challenges and more, helping small and large teams run reliable and observable workflows.
 
 ## Key Concepts in Prefect
 
@@ -26,7 +26,7 @@ To understand Prefect, let’s break down its core components:
 
 ### Flow
 
-A Flow is the highest-level construct in Prefect. It represents a complete workflow or pipeline. A flow contains multiple tasks and defines how those tasks should be executed.
+A Flow is the highest-level construct in Prefect. It represents a complete workflow or pipeline, containing multiple tasks and defining how those tasks should be executed.
 
 Think of a flow as a recipe, and tasks as the individual steps in that recipe.
 
@@ -36,11 +36,11 @@ A Task is a single unit of work in a Prefect flow. Each task represents a specif
 
 ### Parameters
 
-Parameters are inputs you can provide to a flow at the time of execution. They help in making flows dynamic and reusable. For example, instead of hardcoding a date or a filename, you can pass it as a parameter.
+Parameters are inputs you can provide to a flow during execution. They help in making flows dynamic and reusable. For example, you can pass it as a parameter instead of hardcoding a date or a filename.
 
 ### Orchestration
 
-Orchestration refers to the way Prefect schedules, monitors, retries, and manages tasks and flows. This is a key feature that distinguishes Prefect from just writing scripts. It adds logic and control over how workflows behave in real-world scenarios.
+Orchestration refers to how Prefect schedules, monitors, retries, and manages tasks and flows. This is a key feature that distinguishes Prefect from just writing scripts. It adds logic and control over how workflows behave in real-world scenarios.
 
 ### State
 
@@ -71,7 +71,7 @@ Prefect supports retries, timeouts, and failovers. If a task fails, Prefect can 
 
 ### 4\. Dynamic Task Handling
 
-Tasks can be parameterized and can behave dynamically based on input parameters, making your flows adaptable to different situations without needing to rewrite them.
+Tasks can be parameterized and behave dynamically based on input parameters, making your flows adaptable to different situations without needing to be rewritten.
 
 ### 5\. Modular and Scalable
 
@@ -81,11 +81,11 @@ Tasks and flows are modular, allowing reuse and composition. This makes it easy 
 
 ### Data Engineering
 
-Automate ETL (Extract, Transform, Load) pipelines, move data across systems, clean and validate datasets.
+Automate ETL (Extract, Transform, Load) pipelines, move data across systems, and clean and validate datasets.
 
 ### Machine Learning
 
-Run training pipelines, manage data preprocessing tasks, automate model evaluation and deployment workflows.
+Run training pipelines, manage data preprocessing tasks, and automate model evaluation and deployment workflows.
 
 ### DevOps and Automation
 
@@ -133,7 +133,7 @@ Understanding how Prefect executes tasks and flows is crucial to managing workfl
 *   **Failed**: The task failed to complete.
 *   **Retrying**: Prefect is retrying the task based on your settings.
 
-Each state can include metadata like start time, duration, error messages, and more.
+Each state can include metadata like start time, duration, error messages, etc.
 
 ## Scheduling in Prefect
 
@@ -183,10 +183,10 @@ Prefect is a powerful, flexible, and beginner-friendly orchestration tool for ma
 
 Whether you're building data pipelines, machine learning workflows, or automating system tasks, Prefect offers a modern approach to keeping everything reliable, observable, and easy to manage.
 
-Refer the following links for detailed understanding:
+Refer to the following links for a detailed understanding:
 
 ## References
-1) https://www.prefect.io/
-2) https://dataknowsall.com/blog/prefectintro.html
-3) https://www.youtube.com/watch?v=D5DhwVNHWeU
-4) https://www.youtube.com/watch?v=EYs5xotSOT0
+1. Pythonic, modern workflow orchestration for resilient data platforms (no date) Prefect.io. Available at: https://www.prefect.io/.
+2. Roepke, B. (2024) “Getting started with Prefect: Powerful orchestration for your data,” Dataknowsall.com. Data Knows All, LLC, 7 March. Available at: https://dataknowsall.com/blog/prefectintro.html.
+3. Kahan Data Solutions (2023) Getting started with prefect | task orchestration & data workflows. Youtube. Available at: https://www.youtube.com/watch?v=D5DhwVNHWeU.
+4. Tripathi, M. (2024) Prefect hands-on tutorial: Build, schedule, & automate workflows (part 2: Live coding). Youtube. Available at: https://www.youtube.com/watch?v=EYs5xotSOT0.
