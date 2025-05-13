@@ -191,7 +191,7 @@ For technical newbies, DBT is a great entry point into the world of data enginee
 
 As you grow more comfortable with DBT, you’ll be able to take on more complex transformations, contribute to data governance, and play a key role in your organization’s data success.
 
-Refer the following links for detailed understanding:
+Refer to the following links for a detailed understanding:
 
 ## References
 
