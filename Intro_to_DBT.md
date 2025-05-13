@@ -195,18 +195,7 @@ Refer to the following links for a detailed understanding:
 
 ## References
 
-1.  [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
-   
-Source: Dbt Labs (no date) dbt Labs. Available at: https://www.getdbt.com/.
-3.  [https://www.getdbt.com/](https://www.getdbt.com/)
-
-Source: Dbt Labs (no date) dbt Labs. Available at: https://www.getdbt.com/.
-4.  [https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/](https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/)
-
-Source: Overview: What is dbt and What Can It Do for My Data Pipeline? (2024) Analytics8.com. Available at: https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/.
-5.  [https://www.youtube.com/watch?v=W0Pcgbw6KxE](https://www.youtube.com/watch?v=W0Pcgbw6KxE)
-
-Source: Airbyte (2024) What is dbt: The Data Build Tool? Youtube. Available at: https://www.youtube.com/watch?v=W0Pcgbw6KxE.
-7.  [https://www.youtube.com/watch?v=C6BNAfaeqXY](https://www.youtube.com/watch?v=C6BNAfaeqXY)
-
-Source: Data Tech (2024) dbt(Data Build Tool) crash course for beginners: Zero to Hero. Youtube. Available at: https://www.youtube.com/watch?v=C6BNAfaeqXY.
+1. Dbt Labs (no date) dbt Labs. Available at: https://www.getdbt.com/.
+2. Overview: What is dbt and What Can It Do for My Data Pipeline? (2024) Analytics8.com. Available at: https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/.
+3. Airbyte (2024) What is dbt: The Data Build Tool? Youtube. Available at: https://www.youtube.com/watch?v=W0Pcgbw6KxE.
+4. Data Tech (2024) dbt(Data Build Tool) crash course for beginners: Zero to Hero. Youtube. Available at: https://www.youtube.com/watch?v=C6BNAfaeqXY.
