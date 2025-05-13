@@ -1,7 +1,7 @@
 # Introduction to Apache Airflow: Automating and Managing Workflows
 
 ## Introduction  
-Apache Airflow is an open-source platform designed to programmatically author, schedule, and monitor workflows. In today’s data-driven world, automating complex processes—such as data pipelines, machine learning model training, and ETL (Extract, Transform, Load) tasks—is critical for efficiency and scalability. Airflow allows teams to define workflows as code, making them reusable, dynamic, and easily maintainable. Whether orchestrating daily data ingestion or coordinating multi-team workflows, Airflow provides the tools to ensure tasks run in the right order, at the right time, and with proper monitoring.
+Apache Airflow is an open-source platform designed to author, schedule, and monitor workflows programmatically. In today’s data-driven world, automating complex processes—such as data pipelines, machine learning model training, and ETL (Extract, Transform, Load) tasks—is critical for efficiency and scalability. Airflow allows teams to define workflows as code, making them reusable, dynamic, and easily maintainable. Whether orchestrating daily data ingestion or coordinating multi-team workflows, Airflow provides the tools to ensure tasks run in the correct order, at the right time, and with proper monitoring.
 
 ---
 
@@ -13,7 +13,7 @@ Apache Airflow is an open-source platform designed to programmatically author, s
 ---
 
 ## What is a Workflow?  
-A workflow is a sequence of tasks that are executed in a specific order to achieve a goal. In data engineering, workflows might include steps like fetching data, cleaning it, analyzing it, and generating reports. Manually managing these processes is error-prone and inefficient. Apache Airflow solves this by allowing you to define workflows as code, automating their execution and monitoring.  
+A workflow is a sequence of tasks executed in a specific order to achieve a goal. In data engineering, workflows might include steps like fetching data, cleaning it, analyzing it, and generating reports. Manually managing these processes is error-prone and inefficient. Apache Airflow solves this by allowing you to define workflows as code, automating their execution and monitoring.  
 
 ---
 
@@ -28,7 +28,7 @@ A workflow is a sequence of tasks that are executed in a specific order to achie
 
 # Directed Acyclic Graph (DAG) in Apache Airflow
 
-A **Directed Acyclic Graph (DAG)** is the backbone of Apache Airflow's workflow management system. It represents a collection of all the tasks you want to run, organized in a way that reflects their relationships and dependencies.
+A **Directed Acyclic Graph (DAG)** is the backbone of Apache Airflow's workflow management system. It represents a collection of all the tasks you want to run, organized to reflect their relationships and dependencies.
 
 ## Core Concept
 
@@ -36,12 +36,12 @@ A **Directed Acyclic Graph (DAG)** is the backbone of Apache Airflow's workflow 
 - **Acyclic**: No cycles are allowed; a task cannot be dependent on itself either directly or indirectly.
 - **Graph**: Composed of nodes (tasks) and edges (dependencies), forming a structure that defines execution order.
 
-This structure ensures that tasks execute in a valid, logical sequence, preventing circular dependencies and allowing for deterministic workflows.
+This structure ensures tasks execute in a valid, logical sequence, preventing circular dependencies and allowing for deterministic workflows.
 
 ## Key Features
 
 - **Python-Based**: DAGs are defined in standard Python files, allowing the use of dynamic and programmatic structures.
-- **Flexible Scheduling**: DAGs can be scheduled using cron expressions or defined time intervals, making them suitable for a wide range of use cases.
+- **Flexible Scheduling**: DAGs can be scheduled using cron expressions or defined time intervals, making them suitable for various use cases.
 - **Task Modularity and Reusability**: Tasks and operators can be reused across different DAGs, supporting DRY (Don't Repeat Yourself) principles.
 - **Clear Dependency Management**: Dependencies between tasks are explicitly defined, ensuring predictable execution flows.
 - **Retry and Alert Mechanisms**: DAGs support configurable retry strategies and failure notifications to enhance reliability.
@@ -58,7 +58,7 @@ This structure ensures that tasks execute in a valid, logical sequence, preventi
 
 - **Name DAGs and Tasks Clearly**: Use descriptive names to make workflows self-explanatory.
 - **Keep DAGs Lightweight**: Avoid heavy computations or API calls in the DAG definition file itself.
-- **Avoid Cyclic Dependencies**: Always ensure that the task dependency graph remains acyclic.
+- **Avoid Cyclic Dependencies**: Ensure the task dependency graph remains acyclic.
 - **Separate Logic from Configuration**: Encapsulate business logic in external scripts or modules to keep DAGs clean and readable.
 - **Limit DAG File Complexity**: Keep each DAG focused and manageable; if it gets too large, consider breaking it into multiple DAGs.
 
