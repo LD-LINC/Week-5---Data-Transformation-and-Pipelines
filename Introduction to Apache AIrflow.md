@@ -194,7 +194,7 @@ Airflow's modular architecture includes:
 - **Web Server**: UI for monitoring DAGs, inspecting logs, and managing tasks
 - **Metadata Database**: Stores DAG definitions, task states, and execution history
 
-![Airflow Architecture Diagram](https://airflow.apache.org/docs/apache-airflow/stable/_images/arch-diag-basic.png)
+![Architecture](https://airflow.apache.org/docs/apache-airflow/stable/_images/arch-diag-basic.png)
 
 ## Use Cases for Apache Airflow
 
