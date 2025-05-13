@@ -62,9 +62,9 @@ The DAG allows DBT to:
 
 ### 4\. Environments and Version Control
 
-Because DBT is code-based, it integrates naturally with Git and other version control tools. Teams can create branches, review code, and test changes before deploying to production.
+Because DBT is code-based, it integrates naturally with Git and other version control tools. Teams can create branches, review code, and test changes before production deployment.
 
-This encourages good development practices and makes it easier to manage changes across staging and production environments.
+This encourages good development practices and makes managing changes across staging and production environments easier.
 
 ### 5\. Testing
 
@@ -74,9 +74,9 @@ Tests are run as part of your DBT pipeline, catching errors before they affect d
 
 ### 6\. Documentation
 
-DBT makes it easy to add documentation to each model, test, and data source. You can describe what each model does, what its columns mean, and how it should be used.
+DBT makes adding documentation to each model, test, and data source easy. You can describe what each model does, what its columns mean, and how it should be used.
 
-This documentation can be compiled into an interactive website, giving teams a **self-service data catalog**.
+This documentation can be compiled into an interactive website, giving teams a **self-service data catalogue**.
 
 ### 7\. Sources and Seeds
 
@@ -151,7 +151,7 @@ DBT is available in two versions:
 *   Easier onboarding and collaboration  
     
 
-For technical beginners, DBT Cloud can be an easier starting point, while more advanced users might prefer DBT Core for greater flexibility.
+DBT Cloud can be an easier starting point for technical beginners, while more advanced users might prefer DBT Core for greater flexibility.
 
 ## Who Uses DBT?
 
@@ -196,7 +196,12 @@ Refer to the following links for a detailed understanding:
 ## References
 
 1.  [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
+Source: Dbt Labs (no date) dbt Labs. Available at: https://www.getdbt.com/.
 2.  [https://www.getdbt.com/](https://www.getdbt.com/)
-3.  [https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/](https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/)
-4.  [https://www.youtube.com/watch?v=W0Pcgbw6KxE](https://www.youtube.com/watch?v=W0Pcgbw6KxE)
-5.  [https://www.youtube.com/watch?v=C6BNAfaeqXY](https://www.youtube.com/watch?v=C6BNAfaeqXY)
+Source: Dbt Labs (no date) dbt Labs. Available at: https://www.getdbt.com/.
+4.  [https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/](https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/)
+Source: Overview: What is dbt and What Can It Do for My Data Pipeline? (2024) Analytics8.com. Available at: https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/.
+5.  [https://www.youtube.com/watch?v=W0Pcgbw6KxE](https://www.youtube.com/watch?v=W0Pcgbw6KxE)
+Source: Airbyte (2024) What is dbt: The Data Build Tool? Youtube. Available at: https://www.youtube.com/watch?v=W0Pcgbw6KxE.
+7.  [https://www.youtube.com/watch?v=C6BNAfaeqXY](https://www.youtube.com/watch?v=C6BNAfaeqXY)
+Source: Data Tech (2024) dbt(Data Build Tool) crash course for beginners: Zero to Hero. Youtube. Available at: https://www.youtube.com/watch?v=C6BNAfaeqXY.
