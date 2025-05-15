@@ -300,20 +300,16 @@ Design a DAG that periodically fetches data from an external API, processes it, 
 # Resources
 
 ## Official Documentation
-- [Apache Airflow Docs](https://airflow.apache.org/docs/)
+- Apache Airflow. (n.d.). Documentation. [online] Available at: https://airflow.apache.org/docs/.
 
 ## Video Tutorials
-- [YouTube Tutorial – Apache Airflow Full Course](https://www.youtube.com/watch?v=K9AnJ9_ZAXE)
+- coder2j (2022). Airflow Tutorial for Beginners - Full Course in 2 Hours 2022. [online] YouTube. Available at: https://www.youtube.com/watch?v=K9AnJ9_ZAXE.
 
 ## Medium Articles
-- [Data Pipeline using Apache Airflow to Import Data from Public API](https://medium.com/jakartasmartcity/data-pipeline-using-apache-airflow-to-import-data-from-public-api-7ff719118ac8)  
-  *A practical guide on importing time-series data from a public API into a local database using Airflow.*
+- Susanto, G.K. (2021) Data pipeline using Apache airflow to import data from public API, jakartasmartcity. Available at: https://medium.com/jakartasmartcity/data-pipeline-using-apache-airflow-to-import-data-from-public-api-7ff719118ac8.
 
-- [Implementing Data Pipelines with Apache Airflow in Python](https://medium.com/@AlexanderObregon/implementing-data-pipelines-with-apache-airflow-in-python-69761ed65bdb)  
-  *An introduction to building and managing data pipelines with Airflow and Python.*
+- Obregon, A. (2024) Build data pipelines with Apache Airflow, Medium. Available at: https://medium.com/@AlexanderObregon/implementing-data-pipelines-with-apache-airflow-in-python-69761ed65bdb.
 
-- [How to Automate Data Pipelines in Apache Airflow](https://medium.com/codex/how-to-automate-data-pipelines-in-apache-airflow-9fc90291371a)  
-  *A step-by-step guide to automating data pipelines using Airflow's core features.*
+- Rehmanabdul (2024). How to Automate Data Pipelines in Apache Airflow | by Rehmanabdul | Medium | CodeX. [online] Medium. Available at: https://medium.com/codex/how-to-automate-data-pipelines-in-apache-airflow-9fc90291371a.
 
-- [Apache Airflow for Data Science — How to Work with REST APIs](https://medium.com/data-science/apache-airflow-for-data-science-how-to-work-with-rest-apis-8f4e20bee7d)  
-  *Insights on using Airflow to interact with REST APIs in a data science context.*
+- Radečić, D. (2022). Apache Airflow for Data Science — How to Work with REST APIs. [online] Medium. Available at: https://medium.com/data-science/apache-airflow-for-data-science-how-to-work-with-rest-apis-8f4e20bee7d.
