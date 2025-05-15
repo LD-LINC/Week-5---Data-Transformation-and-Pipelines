@@ -64,7 +64,7 @@ This structure ensures tasks execute in a valid, logical sequence, preventing ci
 
 ---
 
-Analysis
+
 
 
 
@@ -88,7 +88,7 @@ A cron expression has five fields, each separated by a space:
 
 
 
-Copy
+
 
 ## Common Examples
 
