@@ -10,7 +10,7 @@ Prefect ensures your workflows are robust, repeatable, and easy to monitor, even
 
 ## Why Do We Need Prefect?
 
-As data-driven applications and services become complex, the need to coordinate and automate various tasks becomes critical. Managing these workflows manually or with simple scripts often leads to problems like:
+As data-driven applications and services become complex, coordinating and automating various tasks becomes critical. Managing these workflows manually or with simple scripts often leads to problems like:
 
 *   Tasks failing silently
 *   Difficulty in retrying failed operations
@@ -26,7 +26,7 @@ To understand Prefect, let’s break down its core components:
 
 ### Flow
 
-A Flow is the highest-level construct in Prefect. It represents a complete workflow or pipeline, containing multiple tasks and defining how those tasks should be executed.
+A Flow is the highest-level construct in Prefect. It represents a complete workflow or pipeline, containing multiple tasks and defining how they should be executed.
 
 Think of a flow as a recipe, and tasks as the individual steps in that recipe.
 
@@ -52,8 +52,8 @@ Prefect has a hybrid execution model. This means that your code (your flows and 
 
 ### Prefect Core vs Prefect Cloud
 
-*   **Prefect Core**: This is the open-source library that lets you define and run workflows in Python. You can use it without any connection to external services.
-*   **Prefect Cloud**: This is a managed orchestration environment provided by Prefect. It offers a user interface, logging, scheduling, and other orchestration features. Prefect Cloud can monitor your flows even if they run in your own infrastructure.
+*   **Prefect Core**: This is an open-source library for defining and running workflows in Python. It can be used without any connection to external services.
+*   **Prefect Cloud**: Prefect provides a managed orchestration environment with a user interface, logging, scheduling, and other orchestration features. Prefect Cloud can monitor your flows even if they run in your own infrastructure.
 
 ## Benefits of Using Prefect
 
